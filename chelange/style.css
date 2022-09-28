@@ -1,0 +1,52 @@
+.Rasm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  /* margin: 100px; */
+}
+.img {
+  width: 500px;
+  height: 400px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.input button {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.send-btn {
+  opacity: 1;
+}
+.btn-fight {
+  border: none;
+  background-color: red;
+  font-weight: 700;
+  font-style: italic;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin: 10% 2%;
+  cursor: pointer;
+}
+.active {
+  opacity: 0;
+  transition: all 1;
+}
+
+.qizil {
+  background-color: rgb(255, 0, 0);
+}
+
+.otvet {
+  font-size: 100px;
+  text-align: center;
+  
+  transition: all 0.3;
+}
+
